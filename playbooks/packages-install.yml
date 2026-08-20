@@ -1,0 +1,28 @@
+---
+
+- name: Installing Packages, Checking if they are Ubuntu by Showing the Logs with which package is completed.
+  hosts: servers
+  become: yes
+
+  vars:
+    required_packages:
+      - tree
+      - zip
+      - wget
+      - jq
+      - apache2
+      - unzip
+
+  tasks:
+    - name: Installing Packages
+      apt:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ required_packages }}"
+      when: ansible_facts["distribution"] == "Ubuntu"
+
+    - name: Checking Log Messages
+      debug:
+        msg: "Installed {{ item }}"
+      loop: "{{ required_packages }}"
+      when: ansible_facts["distribution"] == "Ubuntu"
