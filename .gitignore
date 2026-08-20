@@ -1,2 +1,7 @@
 .ssh/
-
+.bashrc
+.profile
+.sudo_as_admin_successful
+.viminfo
+.bash_logout
+.cache/
