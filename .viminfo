@@ -12,7 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1787241643,,"wq"
+|2,0,1787242887,,"wq"
+:q!
+|2,0,1787242703,,"q!"
+:q
+|2,0,1787242697,,"q"
 :wq!
 |2,0,1787241537,,"wq!"
 
@@ -27,36 +31,94 @@
 # Registers:
 
 # File marks:
-'0  4  8  ~/playbooks/packages-install.yml
-|4,48,4,8,1787241643,"~/playbooks/packages-install.yml"
-'1  1  0  ~/playbooks/ansible_hosts
-|4,49,1,0,1787241537,"~/playbooks/ansible_hosts"
-'2  13  14  ~/packages-install.yml
-|4,50,13,14,1787241381,"~/packages-install.yml"
-'3  28  46  ~/packages-install.yml
-|4,51,28,46,1787241271,"~/packages-install.yml"
-'4  27  46  ~/packages-install.yml
-|4,52,27,46,1787241271,"~/packages-install.yml"
-'5  4  15  ~/packages-install.yml
-|4,53,4,15,1787241087,"~/packages-install.yml"
-'6  4  15  ~/packages-install.yml
-|4,54,4,15,1787241087,"~/packages-install.yml"
-'7  4  15  ~/packages-install.yml
-|4,55,4,15,1787241087,"~/packages-install.yml"
+'0  8  46  ~/inventory_files/ansible_hosts
+|4,48,8,46,1787242887,"~/inventory_files/ansible_hosts"
+'1  9  0  ~/inventory_files/ansible_hosts
+|4,49,9,0,1787242703,"~/inventory_files/ansible_hosts"
+'2  9  0  ~/inventory_files/ansible_hosts
+|4,50,9,0,1787242703,"~/inventory_files/ansible_hosts"
+'3  4  8  ~/playbooks/packages-install.yml
+|4,51,4,8,1787241643,"~/playbooks/packages-install.yml"
+'4  1  0  ~/playbooks/ansible_hosts
+|4,52,1,0,1787241537,"~/playbooks/ansible_hosts"
+'5  13  14  ~/packages-install.yml
+|4,53,13,14,1787241381,"~/packages-install.yml"
+'6  28  46  ~/packages-install.yml
+|4,54,28,46,1787241271,"~/packages-install.yml"
+'7  27  46  ~/packages-install.yml
+|4,55,27,46,1787241271,"~/packages-install.yml"
 '8  4  15  ~/packages-install.yml
 |4,56,4,15,1787241087,"~/packages-install.yml"
-'9  28  52  ~/packages-install.yml
-|4,57,28,52,1787241038,"~/packages-install.yml"
+'9  4  15  ~/packages-install.yml
+|4,57,4,15,1787241087,"~/packages-install.yml"
 
 # Jumplist (newest first):
+-'  8  46  ~/inventory_files/ansible_hosts
+|4,39,8,46,1787242887,"~/inventory_files/ansible_hosts"
+-'  9  0  ~/inventory_files/ansible_hosts
+|4,39,9,0,1787242874,"~/inventory_files/ansible_hosts"
+-'  9  0  ~/inventory_files/ansible_hosts
+|4,39,9,0,1787242703,"~/inventory_files/ansible_hosts"
+-'  1  0  ~/inventory_files/ansible_hosts
+|4,39,1,0,1787242660,"~/inventory_files/ansible_hosts"
+-'  1  0  ~/inventory_files/ansible_hosts
+|4,39,1,0,1787242660,"~/inventory_files/ansible_hosts"
 -'  4  8  ~/playbooks/packages-install.yml
 |4,39,4,8,1787241643,"~/playbooks/packages-install.yml"
+-'  4  8  ~/playbooks/packages-install.yml
+|4,39,4,8,1787241643,"~/playbooks/packages-install.yml"
+-'  4  8  ~/playbooks/packages-install.yml
+|4,39,4,8,1787241643,"~/playbooks/packages-install.yml"
+-'  4  8  ~/playbooks/packages-install.yml
+|4,39,4,8,1787241643,"~/playbooks/packages-install.yml"
+-'  1  0  ~/playbooks/packages-install.yml
+|4,39,1,0,1787241593,"~/playbooks/packages-install.yml"
+-'  1  0  ~/playbooks/packages-install.yml
+|4,39,1,0,1787241593,"~/playbooks/packages-install.yml"
+-'  1  0  ~/playbooks/packages-install.yml
+|4,39,1,0,1787241593,"~/playbooks/packages-install.yml"
 -'  1  0  ~/playbooks/packages-install.yml
 |4,39,1,0,1787241593,"~/playbooks/packages-install.yml"
 -'  1  0  ~/playbooks/ansible_hosts
 |4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
 -'  1  0  ~/playbooks/ansible_hosts
 |4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
+-'  1  0  ~/playbooks/ansible_hosts
+|4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
+-'  1  0  ~/playbooks/ansible_hosts
+|4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
+-'  1  0  ~/playbooks/ansible_hosts
+|4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
+-'  1  0  ~/playbooks/ansible_hosts
+|4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
+-'  1  0  ~/playbooks/ansible_hosts
+|4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
+-'  1  0  ~/playbooks/ansible_hosts
+|4,39,1,0,1787241537,"~/playbooks/ansible_hosts"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
+-'  13  14  ~/packages-install.yml
+|4,39,13,14,1787241381,"~/packages-install.yml"
 -'  13  14  ~/packages-install.yml
 |4,39,13,14,1787241381,"~/packages-install.yml"
 -'  13  14  ~/packages-install.yml
@@ -73,6 +135,54 @@
 |4,39,28,46,1787241362,"~/packages-install.yml"
 -'  28  46  ~/packages-install.yml
 |4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  28  46  ~/packages-install.yml
+|4,39,28,46,1787241362,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
+-'  27  46  ~/packages-install.yml
+|4,39,27,46,1787241271,"~/packages-install.yml"
 -'  27  46  ~/packages-install.yml
 |4,39,27,46,1787241271,"~/packages-install.yml"
 -'  27  46  ~/packages-install.yml
@@ -98,159 +208,60 @@
 -'  4  15  ~/packages-install.yml
 |4,39,4,15,1787241254,"~/packages-install.yml"
 -'  4  15  ~/packages-install.yml
-|4,39,4,15,1787241087,"~/packages-install.yml"
+|4,39,4,15,1787241254,"~/packages-install.yml"
 -'  4  15  ~/packages-install.yml
-|4,39,4,15,1787241087,"~/packages-install.yml"
+|4,39,4,15,1787241254,"~/packages-install.yml"
 -'  4  15  ~/packages-install.yml
-|4,39,4,15,1787241087,"~/packages-install.yml"
+|4,39,4,15,1787241254,"~/packages-install.yml"
 -'  4  15  ~/packages-install.yml
-|4,39,4,15,1787241087,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241073,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241073,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241073,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241073,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241038,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241038,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241038,"~/packages-install.yml"
--'  27  52  ~/packages-install.yml
-|4,39,27,52,1787241038,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  1  0  ~/packages-install.yml
-|4,39,1,0,1787240596,"~/packages-install.yml"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
--'  4  59  ~/ansible_hosts
-|4,39,4,59,1787240542,"~/ansible_hosts"
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
+-'  4  15  ~/packages-install.yml
+|4,39,4,15,1787241254,"~/packages-install.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/inventory_files/ansible_hosts
+	*	1787242886	0
+	"	8	46
+	^	8	47
+	.	8	46
+	+	8	46
 
 > ~/playbooks/packages-install.yml
 	*	1787241641	0
