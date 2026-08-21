@@ -1,0 +1,5 @@
+- name: Install Docker and Check the Version
+  hosts: servers
+  become: yes
+  roles:
+    - Docker

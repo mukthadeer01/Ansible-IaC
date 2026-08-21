@@ -5,3 +5,6 @@
 .viminfo
 .bash_logout
 .cache/
+.bash_history
+Xauthority
+.lesshst

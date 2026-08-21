@@ -1,0 +1,7 @@
+---
+# handlers file for role/Docker
+
+- name: Restart service
+  service:
+    name: Docker
+    state: restarted

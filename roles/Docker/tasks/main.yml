@@ -1,0 +1,41 @@
+---
+
+- name: Update systems
+  apt:
+    upgrade: dist
+    update_cache: yes
+
+- name: Installing Docker
+  apt:
+    name: docker.io
+    state: present
+    # update_cache: yes is no longer needed here since the first task did it
+
+- name: Add Users to docker group
+  user:
+    name: "{{ item }}"
+    groups: docker
+    append: true
+  loop: "{{ docker_users }}"
+
+- name: Restart service
+  service:
+    name: docker
+    state: restarted
+
+- name: Register a Command
+  command: docker --version
+  register: docker_version
+  changed_when: false
+
+- name: Check Version
+  debug:
+    msg: "{{ docker_version }}"
+
+- name: Check Container
+  command: docker ps 
+
+- name: Log into DockerHub
+  docker_login:
+    username: "{{ docker_username }}"
+    password: "{{ docker_password }}"

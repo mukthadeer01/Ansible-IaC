@@ -1,0 +1,8 @@
+---
+# vars file for role/Docker
+
+docker_username: "mukthadeer01"
+docker_password: "dckr_pat_D0E94WeJCqZjTGQ7MmDB_EU5o0Q"
+
+docker_users:
+  - ubuntu
