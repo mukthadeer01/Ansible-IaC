@@ -6,5 +6,6 @@
 .bash_logout
 .cache/
 .bash_history
-Xauthority
+.Xauthority
 .lesshst
+
